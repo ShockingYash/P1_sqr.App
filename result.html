@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Square Finder By Yash</title>
+        <link rel="stylesheet" href="style.css"></link>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="btn">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">AboutUs</a>
+        </div><br/>
+        <h1>Result page</h1><br/>
+        <h2 id="msg" class="btn2"></h2>
+        <script>
+            let msg = document.getElementById("msg");
+            let ans = localStorage.getItem("ans");
+            msg.innerHTML="Ans: "+ans;
+        </script>
+    </body>
+</html>
